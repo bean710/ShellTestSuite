@@ -6,6 +6,8 @@ command="/bin/ls
 /bin/ls
 /bin/ls"
 
+print_adv
+
 # clean up
 stop_shell
 rm -f $tmp_file
