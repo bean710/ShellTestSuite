@@ -30,6 +30,11 @@ function print_ok()
     echo -e "[\033[32mOK\033[37m]"
 }
 
+function print_adv()
+{
+	echo -n -e "[\033[36mADVANCED\033[37m]"
+}
+
 #######################################
 # Kill the shell in a clean way and remove temporary files
 # Globals:
