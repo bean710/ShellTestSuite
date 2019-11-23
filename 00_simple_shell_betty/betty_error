@@ -8,6 +8,7 @@ stop_shell
 # create a pseudo random file
 # run command
 betty $SPATH*.c > $OUTPUTFILE
+betty $SPATH*.h >> $OUTPUTFILE
 
 print_betty
 
