@@ -35,6 +35,11 @@ function print_adv()
 	echo -n -e "[\033[36mADVANCED\033[37m]"
 }
 
+function print_betty()
+{
+	echo -n -e "[\033[1;33mBETTY\033[37m]"
+}
+
 #######################################
 # Kill the shell in a clean way and remove temporary files
 # Globals:
